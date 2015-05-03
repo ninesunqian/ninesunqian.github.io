@@ -34,4 +34,8 @@ More info: [Generating](http://hexo.io/docs/generating.html)
 $ hexo deploy
 ```
 
+### EulerMind
+
+<a href="jnlp/launch.jnlp" type="application/x-java-jnlp-file">Launch EulerMind Application</a>
+
 More info: [Deployment](http://hexo.io/docs/deployment.html)
