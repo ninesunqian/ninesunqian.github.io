@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp
+    spec="1.0+"
+    codebase="http://localhost/jnlp"
+    href="localhost.jnlp">
+  <information>
+    <title>eulermind</title>
+<vendor>eulermind</vendor>
+    <offline-allowed/>
+  </information>
+  <security>
+     <all-permissions/>
+  </security>
+  <resources>
+    <j2se version="1.5+"/>
+         
+    <property name="jnlp.versionEnabled" value="true" />
+    <jar href="orientdb-lucene.jar" version="1.7.8"/>
+    <jar href="orientdb-client.jar" version="1.7.5"/>
+    <jar href="orientdb-enterprise.jar" version="1.7.5"/>
+    <jar href="orientdb-server.jar" version="1.7.5"/>
+    <jar href="mail.jar" version="1.4"/>
+    <jar href="activation.jar" version="1.1"/>
+    <jar href="orientdb-graphdb.jar" version="1.7.5"/>
+    <jar href="pipes.jar" version="2.5.0"/>
+    <jar href="gremlin-java.jar" version="2.5.0"/>
+    <jar href="gremlin-groovy.jar" version="2.5.0"/>
+    <jar href="ivy.jar" version="2.3.0"/>
+    <jar href="groovy.jar" version="1.8.9"/>
+    <jar href="antlr.jar" version="2.7.7"/>
+    <jar href="asm.jar" version="3.2"/>
+    <jar href="asm-commons.jar" version="3.2"/>
+    <jar href="asm-util.jar" version="3.2"/>
+    <jar href="asm-analysis.jar" version="3.2"/>
+    <jar href="asm-tree.jar" version="3.2"/>
+    <jar href="ant.jar" version="1.8.3"/>
+    <jar href="ant-launcher.jar" version="1.8.3"/>
+    <jar href="jansi.jar" version="1.5"/>
+    <jar href="jline.jar" version="0.9.94"/>
+    <jar href="lucene-analyzers-icu.jar" version="4.7.0"/>
+    <jar href="lucene-analyzers-smartcn.jar" version="4.7.0"/>
+    <jar href="lucene-core.jar" version="4.7.0"/>
+    <jar href="lucene-analyzers-common.jar" version="4.7.0"/>
+    <jar href="lucene-queryparser.jar" version="4.7.0"/>
+    <jar href="lucene-queries.jar" version="4.7.0"/>
+    <jar href="lucene-sandbox.jar" version="4.7.0"/>
+    <jar href="lucene-misc.jar" version="4.7.0"/>
+    <jar href="lucene-spatial.jar" version="4.7.0"/>
+    <jar href="spatial4j.jar" version="0.4.1"/>
+    <jar href="blueprints-core.jar" version="2.4.0"/>
+    <jar href="jettison.jar" version="1.3.3"/>
+    <jar href="jackson-datatype-json-org.jar" version="2.1.2"/>
+    <jar href="jackson-core.jar" version="2.1.2"/>
+    <jar href="jackson-databind.jar" version="2.1.2"/>
+    <jar href="jackson-annotations.jar" version="2.1.1"/>
+    <jar href="json.jar" version="20090211"/>
+    <jar href="colt.jar" version="1.2.0"/>
+    <jar href="concurrent.jar" version="1.3.4"/>
+    <jar href="commons-configuration.jar" version="1.6"/>
+    <jar href="commons-collections.jar" version="3.2.1"/>
+    <jar href="commons-lang.jar" version="2.4"/>
+    <jar href="commons-logging.jar" version="1.1.1"/>
+    <jar href="commons-digester.jar" version="1.8"/>
+    <jar href="commons-beanutils-core.jar" version="1.8.0"/>
+    <jar href="blueprints-orient-graph.jar" version="2.4.0"/>
+    <jar href="dom4j.jar" version="1.6.1"/>
+    <jar href="xml-apis.jar" version="1.0.b2"/>
+    <jar href="swixml.jar" version="2.6.20130530"/>
+    <jar href="commons-beanutils.jar" version="1.7.0"/>
+    <jar href="jnlp.jar" version="1.6"/>
+    <jar href="AppleJavaExtensions.jar" version="1.4"/>
+    <jar href="forms.jar" version="1.2.1"/>
+    <jar href="xstream.jar" version="1.4.7"/>
+    <jar href="xmlpull.jar" version="1.1.3.1"/>
+    <jar href="xpp3_min.jar" version="1.1.4c"/>
+    <jar href="ph-css.jar" version="3.9.0"/>
+    <jar href="ph-commons.jar" version="5.2.0"/>
+    <jar href="annotations.jar" version="2.0.3"/>
+    <jar href="orientdb-tools.jar" version="1.7.5"/>
+    <jar href="orientdb-object.jar" version="1.7.5"/>
+    <jar href="hibernate-jpa-2.0-api.jar" version="1.0.0.Final"/>
+    <jar href="javassist.jar" version="3.16.1-GA"/>
+    <jar href="orient-commons.jar" version="1.7.5"/>
+    <jar href="orientdb-core.jar" version="1.7.5"/>
+    <jar href="orientdb-nativeos.jar" version="1.7.5"/>
+    <jar href="jna.jar" version="4.0.0"/>
+    <jar href="jna-platform.jar" version="4.0.0"/>
+    <jar href="snappy-java.jar" version="1.1.0.1"/>
+    <jar href="concurrentlinkedhashmap-lru.jar" version="1.4"/>
+    <jar href="gson.jar" version="2.2.4"/>
+    <jar href="logback-classic.jar" version="1.0.13"/>
+    <jar href="logback-core.jar" version="1.0.13"/>
+    <jar href="slf4j-api.jar" version="1.7.5"/>
+    <jar href="tika-parsers.jar" version="1.6"/>
+    <jar href="tika-core.jar" version="1.6"/>
+    <jar href="vorbis-java-tika.jar" version="0.6"/>
+    <jar href="netcdf.jar" version="4.2.20"/>
+    <jar href="unidataCommon.jar" version="4.2.20"/>
+    <jar href="jcip-annotations.jar" version="1.0"/>
+    <jar href="commons-httpclient.jar" version="3.1"/>
+    <jar href="jmatio.jar" version="1.0"/>
+    <jar href="apache-mime4j-core.jar" version="0.7.2"/>
+    <jar href="apache-mime4j-dom.jar" version="0.7.2"/>
+    <jar href="commons-compress.jar" version="1.8.1"/>
+    <jar href="xz.jar" version="1.5"/>
+    <jar href="commons-codec.jar" version="1.9"/>
+    <jar href="pdfbox.jar" version="1.8.6"/>
+    <jar href="fontbox.jar" version="1.8.6"/>
+    <jar href="jempbox.jar" version="1.8.6"/>
+    <jar href="bcmail-jdk15.jar" version="1.45"/>
+    <jar href="bcprov-jdk15.jar" version="1.45"/>
+    <jar href="poi.jar" version="3.11-beta2"/>
+    <jar href="poi-scratchpad.jar" version="3.11-beta2"/>
+    <jar href="poi-ooxml.jar" version="3.11-beta2"/>
+    <jar href="poi-ooxml-schemas.jar" version="3.11-beta2"/>
+    <jar href="xmlbeans.jar" version="2.6.0"/>
+    <jar href="tagsoup.jar" version="1.2.1"/>
+    <jar href="asm-debug-all.jar" version="4.1"/>
+    <jar href="isoparser.jar" version="1.0.2"/>
+    <jar href="aspectjrt.jar" version="1.8.0"/>
+    <jar href="metadata-extractor.jar" version="2.6.2"/>
+    <jar href="xmpcore.jar" version="5.1.2"/>
+    <jar href="xercesImpl.jar" version="2.8.1"/>
+    <jar href="boilerpipe.jar" version="1.1.0"/>
+    <jar href="rome.jar" version="1.0"/>
+    <jar href="jdom.jar" version="1.0"/>
+    <jar href="vorbis-java-core.jar" version="0.6"/>
+    <jar href="juniversalchardet.jar" version="1.0.3"/>
+    <jar href="jhighlight.jar" version="1.0"/>
+    <jar href="java-libpst.jar" version="0.8.1"/>
+    <jar href="commons-io.jar" version="2.4"/>
+    <jar href="icu4j.jar" version="54.1"/>
+    <jar href="crawler4j.jar" version="4.1-SNAPSHOT"/>
+    <jar href="lidalia-slf4j-ext.jar" version="1.0.0"/>
+    <jar href="httpclient.jar" version="4.3.5"/>
+    <jar href="httpcore.jar" version="4.3.2"/>
+    <jar href="je.jar" version="5.0.73"/>
+    <jar href="language-detector.jar" version="0.4"/>
+    <jar href="stax-api.jar" version="1.0.1"/>
+    <jar href="jsonic.jar" version="1.2.11"/>
+    <jar href="annotations.jar" version="12.0"/>
+    <jar href="guava.jar" version="16.0.1"/>
+
+     
+  </resources>
+  <!--application-desc main-class="eulermind.EulerMind"/-->
+</jnlp>
+
