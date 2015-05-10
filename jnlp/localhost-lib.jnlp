@@ -145,4 +145,5 @@
 		<jar href="guava.jar" version="16.0.1"></jar>
 	</resources>
 	<update policy="prompt-update" check="timeout"></update>
+	<component-desc></component-desc>
 </jnlp>
