@@ -144,5 +144,5 @@
 		<jar href="annotations.jar" version="12.0"></jar>
 		<jar href="guava.jar" version="16.0.1"></jar>
 	</resources>
-	<update policy="always" check="background"></update>
+	<update policy="prompt-update" check="timeout"></update>
 </jnlp>

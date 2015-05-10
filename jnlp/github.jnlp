@@ -22,5 +22,5 @@
 		<extension href="github-lib.jnlp" name="lib"></extension>
 	</resources>
 	<application-desc main-class="eulermind.EulerMind"></application-desc>
-	<update policy="always" check="background"></update>
+	<update policy="prompt-update" check="timeout"></update>
 </jnlp>
