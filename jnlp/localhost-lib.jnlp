@@ -4,7 +4,7 @@
 		<title>eulermind</title>
 		<offline-allowed></offline-allowed>
 		<vendor>eulermind</vendor>
-		<homepage>http://www.eulermind.com</homepage>
+		<homepage href="../index.html"></homepage>
 		<description kind="short">a infinite mindmap tool</description>
 		<icon href="eulermind.png"></icon>
 		<shortcut install="false" online="false">
