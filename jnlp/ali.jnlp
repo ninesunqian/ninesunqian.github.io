@@ -19,7 +19,7 @@
 		<j2se href="http://www.oracle.com/technetwork/java/javase/downloads/index.html" version="1.7+"></j2se>
 		<property name="jnlp.versionEnabled" value="true"></property>
 		<jar href="eulermind.jar" version="1.0-SNAPSHOT" main="true"></jar>
-		<extension href="jnlpname-lib.jnlp" name="lib"></extension>
+		<extension href="ali-lib.jnlp" name="lib"></extension>
 	</resources>
 	<application-desc main-class="eulermind.EulerMind"></application-desc>
 	<update policy="always" check="background"></update>
