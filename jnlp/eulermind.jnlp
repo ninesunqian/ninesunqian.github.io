@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <jnlp
     spec="1.0+"
-    codebase="http://www.eulermind.com/jnlp"
+    codebase="https://github.com/ninesunqian/ninesunqian.github.io/blob/master/jnlp"
     href="eulermind.jnlp">
   <information>
     <title>eulermind</title>
