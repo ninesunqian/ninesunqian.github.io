@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<jnlp spec="6.0+" codebase="http://www.eulermind.com/jnlp" href="eulermind-lib.jnlp">
+<jnlp spec="6.0+" codebase="https://raw.githubusercontent.com/ninesunqian/ninesunqian.github.io/master/jnlp/" href="github-lib.jnlp">
 	<information>
 		<title>eulermind</title>
 		<offline-allowed></offline-allowed>

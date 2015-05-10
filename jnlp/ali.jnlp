@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<jnlp
-    spec="1.0+"
-    codebase="http://123.57.204.59/jnlp"
-    href="ali.jnlp">
-  <information>
-    <title>eulermind</title>
-    <vendor>eulermind</vendor>
-    <offline-allowed/>
-    <homepage href="www.eulermind.com"/>
-  </information>
-  <security>
-     <all-permissions/>
-  </security>
-  <resources>
-    <j2se version="1.5+"/>
-         
-    <property name="jnlp.versionEnabled" value="true" />
-    <jar href="eulermind.jar" version="1.0-SNAPSHOT" main="true"/>
-    <extension name="lib" href="ali-lib.jnlp"/>
-
-     
-  </resources>
-  <application-desc main-class="eulermind.EulerMind"/>
+<jnlp spec="6.0+" codebase="http://123.57.204.59/jnlp" href="ali.jnlp">
+	<information>
+		<title>eulermind</title>
+		<offline-allowed></offline-allowed>
+		<vendor>eulermind</vendor>
+		<homepage>http://www.eulermind.com</homepage>
+		<description kind="short">a infinite mindmap tool</description>
+		<icon href="eulermind.png"></icon>
+		<shortcut install="false" online="false">
+			<menu></menu>
+			<desktop></desktop>
+		</shortcut>
+	</information>
+	<security>
+		<all-permissions></all-permissions>
+	</security>
+	<resources>
+		<j2se href="http://www.oracle.com/technetwork/java/javase/downloads/index.html" version="1.7+"></j2se>
+		<property name="jnlp.versionEnabled" value="true"></property>
+		<jar href="eulermind.jar" version="1.0-SNAPSHOT" main="true"></jar>
+		<extension href="jnlpname-lib.jnlp" name="lib"></extension>
+	</resources>
+	<application-desc main-class="eulermind.EulerMind"></application-desc>
+	<update policy="always" check="background"></update>
 </jnlp>
-
