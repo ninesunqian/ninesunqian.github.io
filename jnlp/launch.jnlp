@@ -5,6 +5,7 @@
     href="launch.jnlp">
   <information>
     <title>eulermind</title>
+    <offline-allowed/>
   </information>
   <security>
      <all-permissions/>
