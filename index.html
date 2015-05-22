@@ -13477,7 +13477,7 @@ debug: no
 <div created="20150515043112219" creator="BramChen" modified="20150521092902624" modifier="王" title="$:/status/UserName">
 <pre></pre>
 </div>
-<div list="Learning EulerMind简介 EulerMind基本概念 EulerMind整体界面 EulerMind操作方式 EulerMind实践" title="$:/StoryList">
+<div list="EulerMind简介 EulerMind基本概念 EulerMind整体界面 EulerMind操作方式 EulerMind实践" title="$:/StoryList">
 <pre></pre>
 </div>
 <div title="$:/SVGExampleRadius">
@@ -13589,7 +13589,7 @@ debug: no
     }
 }</pre>
 </div>
-<div created="20150506220107565" creator="BramChen" modified="20150522062231646" modifier="王旭光" title="$:/temp/search">
+<div created="20150506220107565" creator="BramChen" modified="20150522081228279" modifier="王旭光" title="$:/temp/search">
 <pre></pre>
 </div>
 <div author="JeremyRuston" core-version="&gt;=5.0.0" dependents="$:/themes/tiddlywiki/snowwhite" description="Centralises the story river, experimental" name="Centralised" plugin-type="theme" title="$:/themes/tiddlywiki/centralised" type="application/json" version="5.1.9-prerelease">
@@ -15551,18 +15551,11 @@ tiddlywiki mywiki --build index
 ```
 </pre>
 </div>
-<div created="20150507215935718" creator="BramChen" modified="20150511154021978" modifier="BramChen" tags="" title="eulermind">
-<pre>使用html的type属性不起作用，java判断在http消息头里判断&quot;application/x-java-jnlp-file&quot;
-
-&lt;html&gt;&lt;a href=&quot;http://localhost/jnlp/localhost.jnlp&quot; type=&quot;application/x-java-jnlp-file&quot;&gt;本地启动&lt;/a&gt;&lt;/html&gt;
-
-&lt;html&gt;&lt;a href=&quot;http://www.eulermind.com/jnlp/eulermind.jnlp&quot; type=&quot;application/x-java-jnlp-file&quot;&gt;www.eulermind.com启动&lt;/a&gt;&lt;/html&gt;
-
-&lt;html&gt;&lt;a href=&quot;http://123.57.204.59/jnlp/ali.jnlp&quot; type=&quot;application/x-java-jnlp-file&quot;&gt;阿里云启动&lt;/a&gt;&lt;/html&gt;
-
-&lt;html&gt;&lt;a href=&quot;http://192.168.1.104/jnlp/home.jnlp&quot; type=&quot;application/x-java-jnlp-file&quot;&gt;家里启动&lt;/a&gt;&lt;/html&gt;
-
-&lt;html&gt;&lt;a href=&quot;https://raw.githubusercontent.com/ninesunqian/ninesunqian.github.io/master/jnlp/github.jnlp&quot; type=&quot;application/x-java-jnlp-file&quot;&gt;github启动&lt;/a&gt;&lt;/html&gt;</pre>
+<div created="20150507215935718" creator="BramChen" modified="20150510140406991" modifier="BramChen" tags="" title="eulermind">
+<pre>&lt;html&gt;&lt;a href=&quot;jnlp/localhost.jnlp&quot; type=&quot;application/x-java-jnlp-file&quot;&gt;本地启动&lt;/a&gt;&lt;/html&gt;
+&lt;html&gt;&lt;a href=&quot;jnlp/eulermind.jnlp&quot; type=&quot;application/x-java-jnlp-file&quot;&gt;www.eulermind.com启动&lt;/a&gt;&lt;/html&gt;
+&lt;html&gt;&lt;a href=&quot;jnlp/ali.jnlp&quot; type=&quot;application/x-java-jnlp-file&quot;&gt;阿里云启动&lt;/a&gt;&lt;/html&gt;
+&lt;html&gt;&lt;a href=&quot;jnlp/home.jnlp&quot; type=&quot;application/x-java-jnlp-file&quot;&gt;家里启动&lt;/a&gt;&lt;/html&gt;</pre>
 </div>
 <div created="20150522030203609" modified="20150522043551459" tags="" title="EulerMind操作方式">
 <pre>由于用户看到的是树形结构，下面所说的节点都是“显示节点”，对于存储节点更改可以想象的出来。
@@ -15623,7 +15616,7 @@ tiddlywiki mywiki --build index
 **节点最终使用的风格的优先级是： 节点特有的风格 &gt; 节点所属类的风格 &gt; 默认风格
 </pre>
 </div>
-<div created="20150521093539112" modified="20150522053525316" tags="" title="EulerMind简介">
+<div created="20150521093539112" modified="20150522102938801" tags="" title="EulerMind简介">
 <pre>!! 名字来由
 *欧拉导图来源于这个公式。目标是汇集并管理用户`一生的知识和任务`。
 * [img width=80 [image/euler-formula.png]] 
@@ -15661,7 +15654,12 @@ tiddlywiki mywiki --build index
 *相同的bug，不重复购买（原则上相同的bug同样给用户造成了损失，无奈资金有限啊）。
 
 *提交方式：TODO
-*付款方式：TODO</pre>
+*付款方式：TODO
+
+!!下载与启动
+* 需要先装java虚拟机。 java7以上版本
+* [[download|http://123.57.204.59/eulermind-2015-05-22.zip]]
+* 下载解压后，linux运行start.sh,  windows运行 start.bat。由于还没有优化，启动慢，请大家耐心等待。尤其是windows用户，会有一个一闪而过的窗口，然后过一会就会启动啦</pre>
 </div>
 <div created="20150522061453450" modified="20150522074826109" title="EulerMind实践">
 <pre>思维导图与gtd思维方式配合可谓天衣无缝。 gtd（get things done）分为思考方法和行动方法，具体见[[gtd中文版| http://stanzhai.github.io/ReadingShare/getting-things-done.pdf]]。我们这里主要涉及思考方法，行动方法等EulerMind支持任务管理后再讲。
